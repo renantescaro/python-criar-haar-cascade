@@ -5,7 +5,7 @@
 > sudo chmod -R 777 nome_pasta
 
 * Entrar na pasta
-cd nome_pasta
+> cd nome_pasta
 <br>
 
 * Clonar repositório do OpenCv
@@ -30,8 +30,10 @@ etc
 
 * Se der o erro 'Unable to locate package libjasper-dev':
 > sudo nano /etc/apt/sources.list
+
 Adicionar:
 > deb http://ftp.fau.de/trinity/trinity-builddeps-r14.0.0/ubuntu/ bionic main
+
 <br>
 
 * Atualizar chaves
@@ -51,5 +53,5 @@ Adicionar:
 <br>
 
 * Tente instalar o libjasper-dev novamente
-sudo apt-get install libjasper-dev
+> sudo apt-get install libjasper-dev
 <br>
