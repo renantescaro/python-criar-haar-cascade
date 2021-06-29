@@ -1,3 +1,5 @@
+### Criar arquivo XML Haar Cascade
+
 * Criar pasta de trabalho:
 > sudo mkdir nome_pasta
 
